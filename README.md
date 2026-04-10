@@ -6,7 +6,7 @@
   <tr>
     <td width="33.33%" valign="top">
       <b>桌面图标矩形选择</b><br>
-      <sub>在桌面图标上使用类似 Excel 的二维矩形选择方式。</sub><br><hr>
+      <sub>在桌面图标上使用类似 Excel 的二维矩形选择方式。</sub><br>
       <img src="https://img.shields.io/badge/总安装-289-0078D7?style=flat-square&logo=data%3Aimage/svg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NTAgNzUwIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0ibTIwOCAyNTUgNC0xQTMwNiAzMDYgMCAwIDAgNzAgMzkyYzg0LTQ2IDE2Mi01MyAxNzgtNDggMSAwLTcgNDUtMzYgODMtMzEgNDAtODMgNzMtODMgNzNxMjkgMyA1NyAwIDUwLTMgOTItMzRjMTEtMTAgMzItMzkgMzAtMzUtMTIgMzEtMTQgNjctMTIgMTAwcTEgMzAgOSA1OSA4IDI0IDIxIDQ1bDggN2MwLTEtOC0xMTIgNDgtMTY3IDEwMy0xMDAgMjE2LTUgMjE2LTVzLTQtNzUtODktMTEyYzIwMy0xOCAxNTkgMTAyIDE1OSAxMDJzNzAtMjkgNTktMTE1Yy05LTc3LTg1LTk1LTEwMC05OC0xMy0yMi0xMTMtMTg3LTI4MC0xMjItMTgxIDcxLTMyNyA1NC0zMjcgNTRxMzMgMzcgNzQgNTkgNTUgMjYgMTE0IDE3bTMxNC0xNiAxOSA2cS0xIDEwLTEwIDExLTktMS0xMC0xMnptLTQwIDJxMC04IDMtMTRsMTEgMyAxMSAzLTIgMTFjMCAxNSAxMiAyNyAyNiAyNyAxMyAxIDIzLTkgMjYtMjJsOCAyYTQyIDQyIDAgMCAxLTgzLTEwIi8%2BPC9zdmc%2B"> <img src="https://img.shields.io/badge/版本-v1.0-blue?style=flat-square">
     </td>
     <td width="33.33%" valign="top">
@@ -16,7 +16,7 @@
     </td>
     <td width="33.33%" valign="top">
       <b>Word 图像无损导出 PDF</b><br>
-      <sub>强制 Word 导出 PDF 时使用 100% 无损图像质量</sub><br><hr>
+      <sub>强制 Word 导出 PDF 时使用 100% 无损图像质量</sub><br>
       <img src="https://img.shields.io/badge/总安装-80-0078D7?style=flat-square&logo=data%3Aimage/svg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NTAgNzUwIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0ibTIwOCAyNTUgNC0xQTMwNiAzMDYgMCAwIDAgNzAgMzkyYzg0LTQ2IDE2Mi01MyAxNzgtNDggMSAwLTcgNDUtMzYgODMtMzEgNDAtODMgNzMtODMgNzNxMjkgMyA1NyAwIDUwLTMgOTItMzRjMTEtMTAgMzItMzkgMzAtMzUtMTIgMzEtMTQgNjctMTIgMTAwcTEgMzAgOSA1OSA4IDI0IDIxIDQ1bDggN2MwLTEtOC0xMTIgNDgtMTY3IDEwMy0xMDAgMjE2LTUgMjE2LTVzLTQtNzUtODktMTEyYzIwMy0xOCAxNTkgMTAyIDE1OSAxMDJzNzAtMjkgNTktMTE1Yy05LTc3LTg1LTk1LTEwMC05OC0xMy0yMi0xMTMtMTg3LTI4MC0xMjItMTgxIDcxLTMyNyA1NC0zMjcgNTRxMzMgMzcgNzQgNTkgNTUgMjYgMTE0IDE3bTMxNC0xNiAxOSA2cS0xIDEwLTEwIDExLTktMS0xMC0xMnptLTQwIDJxMC04IDMtMTRsMTEgMyAxMSAzLTIgMTFjMCAxNSAxMiAyNyAyNiAyNyAxMyAxIDIzLTkgMjYtMjJsOCAyYTQyIDQyIDAgMCAxLTgzLTEwIi8%2BPC9zdmc%2B"> <img src="https://img.shields.io/badge/版本-v1.1.1-blue?style=flat-square">
     </td>
   </tr>
@@ -37,7 +37,7 @@
   <tr>
     <td width="33.33%" valign="top">
       <b>运行对话框自动关闭输入法</b><br>
-      <sub>在资源管理器 Win+R 运行对话框输入时自动禁用输入法, 防止意外输入中文等非英文字符.</sub><br><hr>
+      <sub>在资源管理器 Win+R 运行对话框输入时自动禁用输入法, 防止意外输入中文等非英文字符.</sub><br>
       <img src="https://img.shields.io/badge/总安装-45-0078D7?style=flat-square&logo=data%3Aimage/svg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NTAgNzUwIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0ibTIwOCAyNTUgNC0xQTMwNiAzMDYgMCAwIDAgNzAgMzkyYzg0LTQ2IDE2Mi01MyAxNzgtNDggMSAwLTcgNDUtMzYgODMtMzEgNDAtODMgNzMtODMgNzNxMjkgMyA1NyAwIDUwLTMgOTItMzRjMTEtMTAgMzItMzkgMzAtMzUtMTIgMzEtMTQgNjctMTIgMTAwcTEgMzAgOSA1OSA4IDI0IDIxIDQ1bDggN2MwLTEtOC0xMTIgNDgtMTY3IDEwMy0xMDAgMjE2LTUgMjE2LTVzLTQtNzUtODktMTEyYzIwMy0xOCAxNTkgMTAyIDE1OSAxMDJzNzAtMjkgNTktMTE1Yy05LTc3LTg1LTk1LTEwMC05OC0xMy0yMi0xMTMtMTg3LTI4MC0xMjItMTgxIDcxLTMyNyA1NC0zMjcgNTRxMzMgMzcgNzQgNTkgNTUgMjYgMTE0IDE3bTMxNC0xNiAxOSA2cS0xIDEwLTEwIDExLTktMS0xMC0xMnptLTQwIDJxMC04IDMtMTRsMTEgMyAxMSAzLTIgMTFjMCAxNSAxMiAyNyAyNiAyNyAxMyAxIDIzLTkgMjYtMjJsOCAyYTQyIDQyIDAgMCAxLTgzLTEwIi8%2BPC9zdmc%2B"> <img src="https://img.shields.io/badge/版本-v1.0-blue?style=flat-square">
     </td>
     <td width="33.33%" valign="top">
