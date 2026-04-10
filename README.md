@@ -31,7 +31,6 @@
       👉 <a href="https://windhawk.net/mods/word-pdf-lossless-export">获取</a>
     </td>
   </tr>
-  <tr><td colspan="3">&nbsp;</td></tr>
   <tr>
     <td width="33.33%" valign="top">
       <b>运行对话框自动关闭输入法</b><br>
@@ -60,7 +59,9 @@
       👉 <a href="https://windhawk.net/mods/word-mathtype-dark-fix">获取</a>
     </td>
   </tr>
-  <tr><td colspan="3">&nbsp;</td></tr>
+</table>
+
+<table width="100%">
   <tr>
     <td width="33.33%" valign="top">
       <b>Office 还原旧版 UI 界面（32/64 位通用）</b><br>
@@ -99,17 +100,17 @@
     <td width="33.33%" valign="top">
       <b>Gemini: Show Conversation Date on Sidebar</b><br>
       <sub>Displays relative/absolute time in sidebar. Hides dates on hover/active. Includes toggleable theme styles for Tooltip.</sub><br><br>
-      <img src="https://img.shields.io/badge/总装-21-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.0.1-lightgrey?style=flat-square"><br><img src="https://img.shields.io/badge/日装-3-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-1-success?style=flat-square">
+      <img src="https://img.shields.io/badge/总装-21-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.0.1-lightgrey?style=flat-square"><img src="https://img.shields.io/badge/日装-3-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-1-success?style=flat-square">
     </td>
     <td width="33.33%" valign="top">
       <b>昵图网自动勾选共享图和文件类型</b><br>
       <sub>在昵图网进行搜索时，自动选择共享图分类，同时自动勾选文件格式为所有矢量图格式</sub><br><br>
-      <img src="https://img.shields.io/badge/总装-7-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.4-lightgrey?style=flat-square"><br><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
+      <img src="https://img.shields.io/badge/总装-7-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.4-lightgrey?style=flat-square"><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
     </td>
     <td width="33.33%" valign="top">
       <b>Firefox PDF Preview Page Dark Mode</b><br>
       <sub>Force dark mode on Firefox PDF preview page, with zero-flash and perfect color inversion.</sub><br><br>
-      <img src="https://img.shields.io/badge/总装-2-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.0.0-lightgrey?style=flat-square"><br><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
+      <img src="https://img.shields.io/badge/总装-2-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.0.0-lightgrey?style=flat-square"><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
     </td>
   </tr>
   <tr>
@@ -123,22 +124,21 @@
       👉 <a href="https://greasyfork.org/scripts/571793-firefox-pdf-preview-page-dark-mode">获取</a>
     </td>
   </tr>
-  <tr><td colspan="3">&nbsp;</td></tr>
   <tr>
     <td width="33.33%" valign="top">
       <b>IEEE Xplore Search Box Enhancement</b><br>
       <sub>Automatically fills the search box on IEEE Xplore with the queryText from the URL</sub><br><br>
-      <img src="https://img.shields.io/badge/总装-1-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.0.0-lightgrey?style=flat-square"><br><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
+      <img src="https://img.shields.io/badge/总装-1-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.0.0-lightgrey?style=flat-square"><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
     </td>
     <td width="33.33%" valign="top">
       <b>四川大学教室状态查询优化</b><br>
       <sub>优化SCU逆天的教室状态查询页面，自动高亮显示当前时段的教室状态，优化研讨室的显示。</sub><br><br>
-      <img src="https://img.shields.io/badge/总装-0-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v2025--04--22-lightgrey?style=flat-square"><br><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
+      <img src="https://img.shields.io/badge/总装-0-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v2025--04--22-lightgrey?style=flat-square"><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
     </td>
     <td width="33.33%" valign="top">
       <b>浙大校历页自动点开最新校历</b><br>
       <sub>自动点击浙大校历页面 https://bksy.zju.edu.cn/28435/list.htm 上的最新校历，并在当前页面打开</sub><br><br>
-      <img src="https://img.shields.io/badge/总装-0-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.1-lightgrey?style=flat-square"><br><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
+      <img src="https://img.shields.io/badge/总装-0-e95757?style=flat-square&logo=tampermonkey"> <img src="https://img.shields.io/badge/版本-v1.1-lightgrey?style=flat-square"><img src="https://img.shields.io/badge/日装-0-orange?style=flat-square"> <img src="https://img.shields.io/badge/👍好评-0-success?style=flat-square">
     </td>
   </tr>
   <tr>
