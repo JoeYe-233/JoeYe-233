@@ -31,7 +31,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
+          # 添加所有改动的文件
+          git add README.md history.json
           # 检查文件是否有改动，如果有改动才提交，防止因为无改动 commit 导致报错
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto update README"
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto update stats"
           git push

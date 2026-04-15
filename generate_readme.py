@@ -17,6 +17,8 @@ REQUEST_TIMEOUT = 15           # 超时时间（秒）
 IMAGES_REPO_USER = "JoeYe-233"
 IMAGES_REPO_NAME = "images"  # 图片仓库名称
 IMAGES_REPO_BRANCH = "main"   # 图片仓库分支，通常是 main 或 master
+
+HISTORY_FILE = "history.json" # 用于存储上次的统计数据，生成 Markdown 时对比使用
 # ==========================================
 
 # --- 准备 Windhawk 的 SVG 图标 ---
@@ -25,6 +27,26 @@ WINDHAWK_SVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750"><p
 # 将 SVG 转换为 Base64 编码，并拼接好前缀
 b64_logo = base64.b64encode(WINDHAWK_SVG.encode('utf-8')).decode('utf-8')
 WINDHAWK_LOGO_PARAM = urllib.parse.quote(f"data:image/svg+xml;base64,{b64_logo}")
+
+def load_history():
+    try:
+        with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except:
+        return {}
+
+def save_history(current_stats):
+    with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(current_stats, f, indent=4)
+
+def format_rating(rating_val):
+    """将 0-10 的评分转换为 X.X ★ 格式"""
+    if not rating_val or rating_val == 0:
+        return "暂无评分"
+    # 计算星级：10分=5星，9分=4.5星
+    stars = rating_val / 2.0
+    # 格式化为一位小数，并加上星星符号
+    return f"{stars:.1f} ★"
 
 def get_session_with_proxy():
     proxies = urllib.request.getproxies()
@@ -168,10 +190,29 @@ def render_top_cell(item, cell_width, platform):
 def build_badges(item, platform):
     """根据平台生成徽章，统一放在第一排信息区。"""
     if platform == "windhawk":
-        badge1 = f'<img src="https://img.shields.io/badge/总安装-{item["users"]}-0078D7?style=flat-square&logo={WINDHAWK_LOGO_PARAM}">'
+        # 评分徽章
+        rating_esc = escape_shields_text(item["rating_text"])
+        # 评分颜色：如果是暂无评分用 grey，否则用 gold(黄色) 或 success(绿色)
+        r_color = "gold" if item["rating_text"] != "暂无评分" else "grey"
+        badge_rating = f'<img src="https://img.shields.io/badge/评分-{rating_esc}-{r_color}?style=flat-square">'
+
+        # 日增量徽章
+        delta = item["daily"]
+        # 保留一位小数，不额外加正号
+        delta_text = f"{delta}"
+        # 颜色处理：正数绿色/橙色，负数红色，0灰色
+        if delta > 0: d_color = "orange"
+        elif delta < 0: d_color = "critical"
+        else: d_color = "grey"
+
+        badge_daily = f'<img src="https://img.shields.io/badge/日装-{delta_text}-{d_color}?style=flat-square">'
+
+        # 原有的总安装和版本
+        badge_users = f'<img src="https://img.shields.io/badge/总安装-{item["users"]}-0078D7?style=flat-square&logo={WINDHAWK_LOGO_PARAM}">'
         version_text = escape_shields_text(f'v{item["version"]}')
-        badge2 = f'<img src="https://img.shields.io/badge/版本-{version_text}-blue?style=flat-square">'
-        return f"{badge1} {badge2}"
+        badge_version = f'<img src="https://img.shields.io/badge/版本-{version_text}-00B3D6?style=flat-square">'
+        # 你可以根据排版决定怎么组合，比如：
+        return f"{badge_users} {badge_version} {badge_daily} {badge_rating}"
 
     if platform == "greasyfork":
         badge1 = f'<img src="https://img.shields.io/badge/总安装-{item["users"]}-e95757?style=flat-square&logo=tampermonkey">'
@@ -196,28 +237,52 @@ def render_bottom_cell(item, platform):
 
 def process_windhawk(image_list):
     url = WINDHAWK_CATALOG_URL
+
+    # 1. 在获取前加载历史记录，用于计算日增量
+    history = load_history()
+    new_history = {}
+
     try:
         data = fetch_json(url)
     except Exception as e:
-        print(f"获取 Windhawk 数据失败（超时 {REQUEST_TIMEOUT}s 视为失败）: {e}")
+        # 保留你要求的错误提示格式
+        # 注意：此处假设你全局定义了 REQUEST_TIMEOUT，若无则会抛出变量未定义异常
+        print(f"获取 Windhawk 数据失败（超时视为失败）: {e}")
         return []
 
     my_mods = []
-    # 修正：遍历 data['mods'] 而不是直接遍历 data
+    # 遍历 mods 字典
     for mod_id, mod_info in data.get('mods', {}).items():
         if mod_info.get('metadata', {}).get('author') == WINDHAWK_AUTHOR:
-            # --- 新增：在这里查找匹配的图片 URL ---
+            # 提取核心数值
+            users = mod_info['details']['users']
+            rating_score = mod_info['details'].get('rating', 0)
+
+            # --- 计算日增量 (Delta) ---
+            # 如果历史记录中没有该 ID，则增量记为 0
+            prev_users = history.get(mod_id, users)
+            daily_delta = users - prev_users
+            # 存入本次的新数据
+            new_history[mod_id] = users
+
+            # --- 查找匹配图片 ---
             best_img_url = find_best_image(mod_id, image_list)
 
+            # --- 构建完整字典，无任何字段省略 ---
             my_mods.append({
                 'id': mod_id,
                 'name': mod_info['metadata']['name'],
                 'desc': mod_info['metadata']['description'],
                 'version': mod_info['metadata']['version'],
-                'users': mod_info['details']['users'],
+                'users': users,
+                'rating_text': format_rating(rating_score), # 转换 0-10 到 "X.X ★"
+                'daily': daily_delta,                       # 日增量数值
                 'url': f"https://windhawk.net/mods/{mod_id}",
-                'img_url': best_img_url  # 存入字典供渲染使用
+                'img_url': best_img_url                      # 存入图片 URL
             })
+
+    # 2. 将本次抓取到的用户总数保存到 history.json，供下次运行对比
+    save_history(new_history)
 
     # 按用户量降序排序
     my_mods.sort(key=lambda x: x['users'], reverse=True)
