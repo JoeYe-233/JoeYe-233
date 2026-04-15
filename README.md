@@ -31,13 +31,13 @@
   </tr>
   <tr>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/desktop-rect-select" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/desktop-rect-select" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/taskmgr-taller-tab" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/taskmgr-taller-tab" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/word-pdf-lossless-export" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/word-pdf-lossless-export" target="_blank">获 取</a>
     </td>
   </tr>
 </table>
@@ -71,13 +71,13 @@
   </tr>
   <tr>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/word-mathtype-dark-fix" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/word-mathtype-dark-fix" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/visio-hd-thumbnail" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/visio-hd-thumbnail" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/run-box-no-ime" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/run-box-no-ime" target="_blank">获 取</a>
     </td>
   </tr>
 </table>
@@ -111,13 +111,13 @@
   </tr>
   <tr>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/office-ui-reverter-universal" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/office-ui-reverter-universal" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/visio-pan-zoom" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/visio-pan-zoom" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/word-image-resize-anti-flip" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/word-image-resize-anti-flip" target="_blank">获 取</a>
     </td>
   </tr>
 </table>
@@ -132,15 +132,15 @@
       <br>
       <a href="https://raw.githubusercontent.com/JoeYe-233/images/main/taskmgr-link-speed-before-vs-after.png" target="_blank"><img src="https://raw.githubusercontent.com/JoeYe-233/images/main/taskmgr-link-speed-before-vs-after.png" height="140" alt="任务管理器显示链路速度"></a><br>
     </td>
-    <td width="33.33%" valign="top"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-    <td width="33.33%" valign="top"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+    <td width="33.33%" valign="top">Coming Soon... &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+    <td width="33.33%" valign="top">Coming Soon... &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
   </tr>
   <tr>
     <td valign="bottom">
-      👉  <a href="https://windhawk.net/mods/taskmgr-link-speed" target="_blank">获 取</a>
+      👉 <a href="https://windhawk.net/mods/taskmgr-link-speed" target="_blank">获 取</a>
     </td>
-    <td valign="bottom"></td>
-    <td valign="bottom"></td>
+    <td valign="bottom">🚧 施工中</td>
+    <td valign="bottom">🚧 施工中</td>
   </tr>
 </table>
 <br>
@@ -176,13 +176,13 @@
   </tr>
   <tr>
     <td valign="bottom">
-      👉  <a href="https://greasyfork.org/scripts/569914-gemini-show-conversation-date-on-sidebar" target="_blank">获 取</a>
+      👉 <a href="https://greasyfork.org/scripts/569914-gemini-show-conversation-date-on-sidebar" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://greasyfork.org/scripts/548994-%E6%98%B5%E5%9B%BE%E7%BD%91%E8%87%AA%E5%8A%A8%E5%8B%BE%E9%80%89%E5%85%B1%E4%BA%AB%E5%9B%BE%E5%92%8C%E6%96%87%E4%BB%B6%E7%B1%BB%E5%9E%8B" target="_blank">获 取</a>
+      👉 <a href="https://greasyfork.org/scripts/548994-%E6%98%B5%E5%9B%BE%E7%BD%91%E8%87%AA%E5%8A%A8%E5%8B%BE%E9%80%89%E5%85%B1%E4%BA%AB%E5%9B%BE%E5%92%8C%E6%96%87%E4%BB%B6%E7%B1%BB%E5%9E%8B" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://greasyfork.org/scripts/571793-firefox-pdf-preview-page-dark-mode" target="_blank">获 取</a>
+      👉 <a href="https://greasyfork.org/scripts/571793-firefox-pdf-preview-page-dark-mode" target="_blank">获 取</a>
     </td>
   </tr>
 </table>
@@ -216,13 +216,13 @@
   </tr>
   <tr>
     <td valign="bottom">
-      👉  <a href="https://greasyfork.org/scripts/552990-%E6%B5%99%E5%A4%A7%E6%A0%A1%E5%8E%86%E9%A1%B5%E8%87%AA%E5%8A%A8%E7%82%B9%E5%BC%80%E6%9C%80%E6%96%B0%E6%A0%A1%E5%8E%86" target="_blank">获 取</a>
+      👉 <a href="https://greasyfork.org/scripts/552990-%E6%B5%99%E5%A4%A7%E6%A0%A1%E5%8E%86%E9%A1%B5%E8%87%AA%E5%8A%A8%E7%82%B9%E5%BC%80%E6%9C%80%E6%96%B0%E6%A0%A1%E5%8E%86" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://greasyfork.org/scripts/569995-ieee-xplore-search-box-enhancement" target="_blank">获 取</a>
+      👉 <a href="https://greasyfork.org/scripts/569995-ieee-xplore-search-box-enhancement" target="_blank">获 取</a>
     </td>
     <td valign="bottom">
-      👉  <a href="https://greasyfork.org/scripts/548421-%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E6%95%99%E5%AE%A4%E7%8A%B6%E6%80%81%E6%9F%A5%E8%AF%A2%E4%BC%98%E5%8C%96" target="_blank">获 取</a>
+      👉 <a href="https://greasyfork.org/scripts/548421-%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E6%95%99%E5%AE%A4%E7%8A%B6%E6%80%81%E6%9F%A5%E8%AF%A2%E4%BC%98%E5%8C%96" target="_blank">获 取</a>
     </td>
   </tr>
 </table>
