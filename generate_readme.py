@@ -165,8 +165,10 @@ def generate_table(items, platform):
     return md
 
 def render_top_cell(item, cell_width, platform):
+    spacer = ' &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;'
+    
     if not item:
-        return f'    <td width="{cell_width}" valign="top"></td>\n'
+        return f'    <td width="{cell_width}" valign="top">{spacer}</td>\n'
 
     # 转义描述中的特殊字符，防止破坏 HTML 表格
     safe_desc = html.escape(item.get('desc', ''))
@@ -194,7 +196,8 @@ def build_badges(item, platform):
         rating_esc = escape_shields_text(item["rating_text"])
         # 评分颜色：如果是暂无评分用 grey，否则用 gold(黄色) 或 success(绿色)
         r_color = "gold" if item["rating_text"] != "暂无评分" else "grey"
-        badge_rating = f'<img src="https://img.shields.io/badge/评分-{rating_esc}-{r_color}?style=flat-square">'
+        padding = "%E2%80%8B%20" if item["rating_text"] != "暂无评分" else ""  # 零宽字符阻止trim + 普通空格，增加徽章间距
+        badge_rating = f'<img src="https://img.shields.io/badge/评分-{padding}{rating_esc}-{r_color}?style=flat-square">'
 
         # 日增量徽章
         delta = item["daily"]
@@ -232,7 +235,7 @@ def render_bottom_cell(item, platform):
     link_text = "获 取"
     # 在 a 标签中加入 target="_blank"
     return f'''    <td valign="bottom">
-      👉 <a href="{item['url']}" target="_blank">{link_text}</a>
+      👉  <a href="{item['url']}" target="_blank">{link_text}</a>
     </td>\n'''# style="text-decoration:none;但是可惜 GitHub 很激进不允许在 Markdown 中使用内联 CSS，所以只能放弃了
 
 def process_windhawk(image_list):
