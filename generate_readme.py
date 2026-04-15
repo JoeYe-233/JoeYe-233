@@ -168,7 +168,7 @@ def render_top_cell(item, cell_width, platform):
     spacer = ' &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;'
     
     if not item:
-        return f'    <td width="{cell_width}" valign="top">{spacer}</td>\n'
+        return f'    <td width="{cell_width}" valign="top">Coming Soon...{spacer}</td>\n'
 
     # 转义描述中的特殊字符，防止破坏 HTML 表格
     safe_desc = html.escape(item.get('desc', ''))
@@ -229,13 +229,13 @@ def build_badges(item, platform):
 
 def render_bottom_cell(item, platform):
     if not item:
-        return '    <td valign="bottom"></td>\n'
+        return '    <td valign="bottom">🚧 施工中</td>\n'
 
     # 徽章放在第一排，这里只保留链接
     link_text = "获 取"
     # 在 a 标签中加入 target="_blank"
     return f'''    <td valign="bottom">
-      👉  <a href="{item['url']}" target="_blank">{link_text}</a>
+      👉 <a href="{item['url']}" target="_blank">{link_text}</a>
     </td>\n'''# style="text-decoration:none;但是可惜 GitHub 很激进不允许在 Markdown 中使用内联 CSS，所以只能放弃了
 
 def process_windhawk(image_list):
