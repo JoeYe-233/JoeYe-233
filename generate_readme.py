@@ -166,7 +166,7 @@ def generate_table(items, platform):
 
 def render_top_cell(item, cell_width, platform):
     spacer = ' &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;'
-    
+
     if not item:
         return f'    <td width="{cell_width}" valign="top">Coming Soon...{spacer}</td>\n'
 
@@ -202,10 +202,10 @@ def build_badges(item, platform):
         # 日增量徽章
         delta = item["daily"]
         # 保留一位小数，不额外加正号
-        delta_text = f"{delta}"
+        delta_text = f"--{abs(delta)}" if delta < 0 else f"{delta}"
         # 颜色处理：正数绿色/橙色，负数红色，0灰色
-        if delta > 0: d_color = "orange"
-        elif delta < 0: d_color = "critical"
+        if delta > 0: d_color = "limegreen"
+        elif delta < 0: d_color = "red"
         else: d_color = "grey"
 
         badge_daily = f'<img src="https://img.shields.io/badge/日装-{delta_text}-{d_color}?style=flat-square">'
