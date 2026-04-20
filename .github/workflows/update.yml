@@ -1,9 +1,9 @@
 name: Auto Update README
 
 on:
-  # 1. 定时触发：每天 UTC 时间凌晨 4 点 运行 (北京时间中午 12 点)
+  # 1. 定时触发：每天 UTC 时间凌晨运行 (北京时间 8 点)
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '5 0 * * *'
   # 2. 手动触发：允许你在 GitHub 网页上点个按钮立刻运行
   workflow_dispatch:
 
@@ -23,11 +23,11 @@ jobs:
           python-version: '3.10' # 使用稳定的 Python 版本
 
       # 第 3 步：运行你的 Python 脚本
-      - name: Run python script
+      - name: Generate README.md
         run: python generate_readme.py
 
       # 第 4 步：将脚本生成的 README.md 提交并推送到仓库
-      - name: Commit and Push changes
+      - name: Commit and Push README changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
