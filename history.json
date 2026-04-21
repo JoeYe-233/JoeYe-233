@@ -1,12 +1,12 @@
 {
-    "desktop-rect-select": 325,
+    "desktop-rect-select": 333,
     "office-ui-reverter-universal": 34,
-    "run-box-no-ime": 48,
-    "taskmgr-link-speed": 99,
+    "run-box-no-ime": 46,
+    "taskmgr-link-speed": 110,
     "taskmgr-taller-tab": 100,
-    "visio-hd-thumbnail": 54,
-    "visio-pan-zoom": 20,
-    "word-image-resize-anti-flip": 20,
-    "word-mathtype-dark-fix": 59,
+    "visio-hd-thumbnail": 60,
+    "visio-pan-zoom": 21,
+    "word-image-resize-anti-flip": 22,
+    "word-mathtype-dark-fix": 60,
     "word-pdf-lossless-export": 90
 }
