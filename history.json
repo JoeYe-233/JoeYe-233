@@ -1,14 +1,14 @@
 {
-    "desktop-rect-select": 681,
+    "desktop-rect-select": 688,
     "office-fix-account-disp-name": 24,
-    "office-ui-reverter-universal": 50,
+    "office-ui-reverter-universal": 49,
     "run-box-no-ime": 54,
-    "taskmgr-link-speed": 560,
-    "taskmgr-taller-tab": 128,
-    "visio-hd-thumbnail": 120,
+    "taskmgr-link-speed": 574,
+    "taskmgr-taller-tab": 129,
+    "visio-hd-thumbnail": 118,
     "visio-pan-zoom": 27,
     "word-image-resize-anti-flip": 45,
-    "word-mathtype-dark-fix": 130,
-    "word-omath-shade-fix": 74,
-    "word-pdf-lossless-export": 177
+    "word-mathtype-dark-fix": 127,
+    "word-omath-shade-fix": 76,
+    "word-pdf-lossless-export": 176
 }
